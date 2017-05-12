@@ -225,7 +225,7 @@ USAGE:
   7za a -pmy_password archive.7z  dir1
 
   For .7z archive only, you can enable archive header encryption with "-mhe"
-  7za a -mhe=on -pmy_password archive.7z  dir1
+  7za a -mhe=on -p my_password archive.7z  dir1
 
   For more, see the documentation of 7za.exe in DOC/MANUAL directory
   7za a -t7z  -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on archive.7z  dir1
